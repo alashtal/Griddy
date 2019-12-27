@@ -1,0 +1,16 @@
+function howHover(action) {
+  if (action === 'onmouseover') {
+    document.getElementById('how').firstElementChild.firstElementChild.style.fontSize = '300%';
+  }
+  else if (action === 'onmousedown') {
+    document.getElementById('how').firstElementChild.firstElementChild.style.fontSize = '100%';
+  }
+}
+function priceHover(action) {
+  if (action === 'onmouseover') {
+    document.getElementById('price').firstElementChild.firstElementChild.style.fontSize = '300%';
+  }
+  else if (action === 'onmousedown') {
+    document.getElementById('onprice').firstElementChild.firstElementChild.style.fontSize = '100%';
+  }
+}
